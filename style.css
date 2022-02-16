@@ -7,11 +7,13 @@
     margin: 0;
 }
 html {
-    background-color: #000000;
     font-family: GTWalsheimPro;
     color: #ffffff;
     font-size: 100%;
     line-height: 1.6em;
+}
+.bg-color {
+    background-color: black;
 }
 
 .scroll {
@@ -37,19 +39,9 @@ a {
     text-decoration: none;
 }
 /* --------- header --------- */
-.header-container{
-    padding: 0.2rem 0;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-}
 
 header {
-    width: 15%;
-    height: 25%;
-    margin: 2rem auto auto 2rem;
-    position: absolute;
+    color: white;
 }
 /* --------- end header --------- */
 
@@ -235,6 +227,9 @@ header {
 
 /* Tablet */
 @media (min-width:768px){
+    .about-p2{
+        display: none;
+    }
     .about-mobile{
         display: none;
     }
